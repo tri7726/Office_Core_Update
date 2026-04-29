@@ -16,13 +16,10 @@ BƯỚC 2: KÍCH HOẠT TRONG EXCEL (Chỉ làm 1 lần duy nhất)
    (Lưu ý: Nếu lần đầu tích vào nó báo hỏi gì về bảo mật Macro, cứ tự tin bấm "Bật Macro" / "Enable" nhé).
 6. TẮT HOÀN TOÀN EXCEL ĐI.
 
-BƯỚC 3: SỬ DỤNG TRONG PHÒNG THI
-1. Bây giờ, cứ mỗi lần bạn mở file bài thi Excel lên, tool tàng hình sẽ TỰ ĐỘNG CHẠY NGẦM. Không cần bấm nút khởi động nào cả.
-2. Khi gặp câu tiếng Anh:
+
+ Khi gặp câu tiếng Anh:
    - Bôi đen câu tiếng Anh.
    - Nhấn phím Ctrl + Shift + C.
    - Chờ một lát (khoảng 3-5 giây để nó tự xử lý dịch).
    - Chọn vào một ô trống, nhấn Ctrl + V để dán kết quả tiếng Việt.
 
-* BƯỚC KHẨN CẤP (TỰ SÁT):
-Nếu giám thị đến gần và bắt đầu lục lọi máy, bạn hãy nhanh tay bấm Ctrl + Shift + Q. Phần mềm sẽ lập tức "tự sát", xả sạch RAM và bốc hơi hoàn toàn khỏi hệ thống, không để lại bất kỳ bằng chứng nào.
