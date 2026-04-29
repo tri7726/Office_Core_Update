@@ -16,7 +16,8 @@ BƯỚC 2: KÍCH HOẠT TRONG EXCEL (Chỉ làm 1 lần duy nhất)
    (Lưu ý: Nếu lần đầu tích vào nó báo hỏi gì về bảo mật Macro, cứ tự tin bấm "Bật Macro" / "Enable" nhé).
 6. TẮT HOÀN TOÀN EXCEL ĐI.
 
-
+Ctrl + Shift + X: để mở bản dịch nhập
+Ctrl + Shift + Q tắt chế độ dịch này
  Khi gặp câu tiếng Anh:
    - Bôi đen câu tiếng Anh.
    - Nhấn phím Ctrl + Shift + C.
