@@ -1,0 +1,2 @@
+Original: Hello, this is an offline translation test.
+Result: Xin chào, đây là bài kiểm tra phiên dịch.

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfficeAddin xmlns="http://schemas.microsoft.com/office/appshost/1.1">
+  <Id>d2c3b4e5-f6g7-4h8i-9j0k-1l2m3n4o5p6q</Id>
+  <Version>16.0.428</Version>
+  <ProviderName>Microsoft Corporation</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Excel Core Service" />
+  <Description DefaultValue="Enhanced resource management for Excel workbooks." />
+</OfficeAddin>

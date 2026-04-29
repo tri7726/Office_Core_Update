@@ -1,0 +1,6 @@
+#!C:\Users\Pheo\AppData\Local\Microsoft\Office\Addins\ExcelAddin\env_312\Scripts\python.exe
+
+from argostranslategui import gui
+
+gui.main()
+

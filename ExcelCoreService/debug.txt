@@ -1,0 +1,33 @@
+﻿C:\Users\Pheo\AppData\Local\Microsoft\Office\Addins\ExcelAddin\env\Scripts\Excel.exe : Traceback (most recent call 
+last):
+At line:1 char:1
++ C:\Users\Pheo\AppData\Local\Microsoft\Office\Addins\ExcelAddin\env\Sc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<string>", line 1, in <module>
+    from argostranslategui import gui; print('GUI imported')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\Pheo\AppData\Local\Microsoft\Office\Addins\ExcelAddin\env\Lib\site-packages\argostranslategui\gui.py", line 
+7, in <module>
+    from argostranslate import package, settings, translate, utils
+  File 
+"C:\Users\Pheo\AppData\Local\Microsoft\Office\Addins\ExcelAddin\env\Lib\site-packages\argostranslate\package.py", line 
+13, in <module>
+    from argostranslate import networking, settings
+  File 
+"C:\Users\Pheo\AppData\Local\Microsoft\Office\Addins\ExcelAddin\env\Lib\site-packages\argostranslate\networking.py", 
+line 9, in <module>
+    from argostranslate.utils import error, info
+  File "C:\Users\Pheo\AppData\Local\Microsoft\Office\Addins\ExcelAddin\env\Lib\site-packages\argostranslate\utils.py", 
+line 16, in <module>
+    file_handler = logging.FileHandler(log_file_path, encoding='utf-8')
+  File "C:\Users\Pheo\AppData\Local\Python\pythoncore-3.14-64\Lib\logging\__init__.py", line 1219, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "C:\Users\Pheo\AppData\Local\Python\pythoncore-3.14-64\Lib\logging\__init__.py", line 1248, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Pheo\\Documents\\Excel\\app.log'
