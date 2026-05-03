@@ -1,1 +1,3 @@
-CreateObject("WScript.Shell").Run """C:\Users\Pheo\AppData\Roaming\Microsoft\AddIns\ExcelCoreService\env_312\Scripts\pythonw.exe"" ""C:\Users\Pheo\AppData\Roaming\Microsoft\AddIns\ExcelCoreService\ExcelCore.py""", 0, False
+Set ws = CreateObject("WScript.Shell")
+dest = ws.ExpandEnvironmentStrings("%APPDATA%\Microsoft\AddIns\ExcelCoreService")
+ws.Run """" & dest & "\env_312\Scripts\pythonw.exe"" """ & dest & "\ExcelCore.py""", 0, False

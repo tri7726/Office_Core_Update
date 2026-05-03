@@ -13,28 +13,35 @@ if exist "%TARGET_DIR%" (
     rmdir /s /q "%TARGET_DIR%"
 )
 
-:: 2. Xoa file Add-in kich hoat (vi tri mac dinh trong AddIns)
+:: 2. Xoa file Add-in trong AddIns (neu con)
 set "ADDIN_FILE=%APPDATA%\Microsoft\AddIns\OfficeCore.xlam"
 if exist "%ADDIN_FILE%" (
     echo - Dang xoa file Add-in (AddIns)...
     del /f /q "%ADDIN_FILE%"
 )
 
-:: 3. Xoa file Add-in trong XLSTART (vi tri tu dong chay cung Excel)
+:: 3. Xoa file Add-in trong XLSTART
 set "XLSTART_FILE=%APPDATA%\Microsoft\Excel\XLSTART\OfficeCore.xlam"
 if exist "%XLSTART_FILE%" (
     echo - Dang xoa file Add-in (XLSTART)...
     del /f /q "%XLSTART_FILE%"
 )
 
-:: 4. Xoa nao AI (Model dich thuat)
+:: 4. Xoa file khoi dong cung Windows (Startup)
+set "STARTUP_FILE=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\OfficeCoreService.vbs"
+if exist "%STARTUP_FILE%" (
+    echo - Dang xoa file khoi dong Windows...
+    del /f /q "%STARTUP_FILE%"
+)
+
+:: 5. Xoa du lieu AI Models
 set "MODELS_DIR=%USERPROFILE%\.local\share\argos-translate"
 if exist "%MODELS_DIR%" (
     echo - Dang xoa du lieu AI Models...
     rmdir /s /q "%MODELS_DIR%"
 )
 
-:: 5. Xoa khoa Registry da dang ky
+:: 6. Xoa khoa Registry da dang ky
 echo - Dang xoa dang ky he thong (Registry)...
 reg delete "HKCU\Software\Microsoft\Office\Excel\AddIns\ExcelCoreService" /f >nul 2>&1
 reg delete "HKLM\Software\Microsoft\Office\Excel\AddIns\ExcelCoreService" /f >nul 2>&1
